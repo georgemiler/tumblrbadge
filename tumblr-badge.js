@@ -40,7 +40,6 @@ var tumblrBadge = function () {
 			list.className = "tumblr";
 			for (var i=0, il=posts.length; i<il; i=i+1) {
 				post = posts[i];
-				console.log(posts[i]);
 
 				// Only get content for text, photo, quote and link posts
 				if (/regular|photo|quote|link|conversation|video/.test(post.type)) {
